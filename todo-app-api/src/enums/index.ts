@@ -1,0 +1,5 @@
+export enum TODO_STATUS {
+  PENDING = "PENDING",
+  COMPLETED = "COMPLETED",
+  INACTIVE = "INACTIVE",
+}

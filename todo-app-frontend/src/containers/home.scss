@@ -1,0 +1,36 @@
+.todo-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  max-height: 100%;
+  overflow: auto;
+
+  .todo-input {
+    margin-top: 20px;
+  }
+
+  .todo-sorter {
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-bottom: 10px;
+  }
+
+  .todo-list {
+    width: 700px;
+
+    .todo {
+      margin: 10px;
+    }
+
+    .strike {
+      text-decoration: line-through;
+    }
+
+    .todo-details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
